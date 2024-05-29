@@ -9,6 +9,10 @@ public class persondemo {
 	public int getTax() {
 		return tax;
 	}
+	public void setTax(int tax)
+	{
+		this.tax=tax;
+	}
 	public String getName() {
 		return name;
 	}
@@ -35,7 +39,7 @@ public class persondemo {
 		this.age =age;
 	}
 	public String toString() {
-		return "Person name="+name+",income="+income+",gender="+gender+",age="+age;
+		return "Person name="+name+",income="+income+",gender="+gender+",age="+age+"Tax="+tax;
 	}
 	
 }
