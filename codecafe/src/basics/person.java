@@ -22,6 +22,13 @@ public class person {
 		person.setAge(age);
 		person.setGender(gender);
 		person.setIncome(income);
+		System.out.println(person);
+		Taxcalculation calc = new Taxcalculation();
+		calc.calculateTax(person);
+		System.out.println("After calculating tax:");
+		System.out.println(person);
+		ob.close();
+		
 		
 		
 		
