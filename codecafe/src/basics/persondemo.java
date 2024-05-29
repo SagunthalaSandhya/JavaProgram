@@ -39,7 +39,7 @@ public class persondemo {
 		this.age =age;
 	}
 	public String toString() {
-		return "Person name="+name+",income="+income+",gender="+gender+",age="+age+"Tax="+tax;
+		return "Person name="+name+",income="+income+",gender="+gender+",age="+age+",Tax="+tax;
 	}
 	
 }

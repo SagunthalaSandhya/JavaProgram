@@ -23,7 +23,7 @@ public class person {
 		person.setGender(gender);
 		person.setIncome(income);
 		System.out.println(person);
-		Taxcalculation calc = new Taxcalculation();
+		TaxCalculation calc = new TaxCalculation();
 		calc.calculateTax(person);
 		System.out.println("After calculating tax:");
 		System.out.println(person);
