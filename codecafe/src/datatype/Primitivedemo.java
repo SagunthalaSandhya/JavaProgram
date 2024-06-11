@@ -15,7 +15,7 @@ public class Primitivedemo {
 		System.out.println("Minint range of byte is"+minInt+"Maxint range of byte is"+maxInt);
 		long maxLong = 922337206778776L;
 		long minLong = -922337207787767l;
-		System.out.println("Minlong range of byte is"+minLong+"Maxlong range of byte is"+maxlong);
+		System.out.println("Minlong range of byte is"+minLong+"Maxlong range of byte is"+maxLong);
 		float f=3234.14146578767f;
 		double d=3234.14146578767f;
 		System.out.println("float value is"+f+"double value is"+d);
